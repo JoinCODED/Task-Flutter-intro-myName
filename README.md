@@ -1,16 +1,40 @@
-# TASK-NAME
+# My name
 
-This is the template for tasks. These repos are the starting points and instructions for students to explore a concept.
+You will create a new flutter app project called "my_name_flutter_app"
+After that, you will build an app that shows your name at the center of the home screen.
+Then, you will change the text style.
+
+fontSize: 35
+fontWeight: bold
+color: Red
 
 ## Instructions
-- Fork and clone [this repository](https://github.com/JoinCODED/{REPO_NAME}) to your `Development` folder.
 
-## Objective and end result
-- Write the objective of the task.
-- If there are any images, make sure you resize them to around 880px maximum width. **Don't add big images**
+1. Create you flutter app.
+2. Clean your `main.dart` file to look like this:
 
-![screenshot](https://tenor.com/xNjE.gif)
+```dart
+import 'package:flutter/material.dart';
 
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return
+  }
+}
+```
+
+3. Create you main Widget: `MaterialApp`.
+4. Create a stateless widget called `HomeScreen`.
+5. Return a `Scaffold` widget in your `HomeScreen` widget.
+6. In your `MaterialApp` widget, set the `home` named argument to the `HomeScreen` widget that you just created.
+7. In your `Scaffold` widget, add a `body` named argument and pass it a `Text` widget.
+8. Wrap your `Text` widget in a `Center` widget.
+9. In your `Text` widget, add a second argument `textStyle` and style your text.
 
 ### 🍋 The basic challenge title
 
@@ -18,15 +42,13 @@ This is the template for tasks. These repos are the starting points and instruct
 - Step 2
 - Step 3
 
-
 ### 🤼‍♂️ The hard challenge title
 
 - Step 1
 - Step 2
 - Step 3
 
-
-### 🌶 The Extreme challenge title 
+### 🌶 The Extreme challenge title
 
 - Step 1
 - Step 2
