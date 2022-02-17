@@ -1,4 +1,6 @@
-# My name
+# My Name 😌
+
+![image](https://user-images.githubusercontent.com/84308096/154476277-acb96259-79fd-4aa2-baa7-96df8d0b7e17.png)
 
 You will create a new flutter app project called "my_name_flutter_app"
 After that, you will build an app that shows your name at the center of the home screen.
@@ -38,20 +40,6 @@ class MyApp extends StatelessWidget {
 8. Wrap your `Text` widget in a `Center` widget.
 9. In your `Text` widget, add a second argument `textStyle` and style your text.
 
-### 🍋 The basic challenge title
+Result: 
 
-- Step 1
-- Step 2
-- Step 3
-
-### 🤼‍♂️ The hard challenge title
-
-- Step 1
-- Step 2
-- Step 3
-
-### 🌶 The Extreme challenge title
-
-- Step 1
-- Step 2
-- Step 3
+![result](https://user-images.githubusercontent.com/84308096/154476341-9b56163a-c22a-4a11-af3c-a18bb77eb70e.png)
