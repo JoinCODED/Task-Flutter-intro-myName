@@ -4,9 +4,11 @@ You will create a new flutter app project called "my_name_flutter_app"
 After that, you will build an app that shows your name at the center of the home screen.
 Then, you will change the text style.
 
+```dart
 fontSize: 35
 fontWeight: bold
 color: Red
+```
 
 ## Instructions
 
