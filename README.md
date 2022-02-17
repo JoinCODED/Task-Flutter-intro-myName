@@ -37,21 +37,3 @@ class MyApp extends StatelessWidget {
 7. In your `Scaffold` widget, add a `body` named argument and pass it a `Text` widget.
 8. Wrap your `Text` widget in a `Center` widget.
 9. In your `Text` widget, add a second argument `textStyle` and style your text.
-
-### 🍋 The basic challenge title
-
-- Step 1
-- Step 2
-- Step 3
-
-### 🤼‍♂️ The hard challenge title
-
-- Step 1
-- Step 2
-- Step 3
-
-### 🌶 The Extreme challenge title
-
-- Step 1
-- Step 2
-- Step 3
