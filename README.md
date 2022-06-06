@@ -2,9 +2,9 @@
 
 ![image](https://user-images.githubusercontent.com/84308096/154476277-acb96259-79fd-4aa2-baa7-96df8d0b7e17.png)
 
-You will create a new flutter app project called "my_name_flutter_app"
+In this task, you will create a new flutter app project called "my_name_flutter_app".
 After that, you will build an app that shows your name at the center of the home screen.
-Then, you will change the text style.
+Then, you will change the text style to be something like the following:
 
 ```dart
 fontSize: 35
@@ -14,8 +14,8 @@ color: Red
 
 ## Instructions
 
-1. Create you flutter app.
-2. Clean your `main.dart` file to look like this:
+1. Create your flutter app.
+2. Edit your `main.dart` file to look like the following:
 
 ```dart
 import 'package:flutter/material.dart';
@@ -32,13 +32,13 @@ class MyApp extends StatelessWidget {
 }
 ```
 
-3. Create you main Widget: `MaterialApp`.
+3. Create the main Widget: `MaterialApp`.
 4. Create a stateless widget called `HomeScreen`.
-5. Return a `Scaffold` widget in your `HomeScreen` widget.
-6. In your `MaterialApp` widget, set the `home` named argument to the `HomeScreen` widget that you just created.
-7. In your `Scaffold` widget, add a `body` named argument and pass it a `Text` widget.
-8. Wrap your `Text` widget in a `Center` widget.
-9. In your `Text` widget, add a second argument `textStyle` and style your text.
+5. Return a `Scaffold` widget in the `HomeScreen` widget.
+6. In the `MaterialApp` widget, assign the `home` named argument to the `HomeScreen` widget that you just created.
+7. In the `Scaffold` widget, add a `body` named argument and pass it a `Text` widget.
+8. Wrap the `Text` widget in a `Center` widget.
+9. In the `Text` widget, add a second argument: `textStyle`, and style your text.
 
 Result: 
 
