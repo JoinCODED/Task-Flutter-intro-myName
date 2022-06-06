@@ -27,18 +27,14 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return
+    return MaterialAp()
   }
 }
 ```
-
-3. Create you main Widget: `MaterialApp`.
-4. Create a stateless widget called `HomeScreen`.
-5. Return a `Scaffold` widget in your `HomeScreen` widget.
-6. In your `MaterialApp` widget, set the `home` named argument to the `HomeScreen` widget that you just created.
-7. In your `Scaffold` widget, add a `body` named argument and pass it a `Text` widget.
-8. Wrap your `Text` widget in a `Center` widget.
-9. In your `Text` widget, add a second argument `textStyle` and style your text.
+3. Return a `Scaffold` widget in your `MaterialAp` widget.
+5. In your `Scaffold` widget, add a `body` named argument and pass it a `Text` widget.
+6. Wrap your `Text` widget in a `Center` widget.
+7. In your `Text` widget, add a second argument `textStyle` and style your text.
 
 Result: 
 
