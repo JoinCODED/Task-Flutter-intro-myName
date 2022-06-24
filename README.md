@@ -14,6 +14,17 @@ color: Red
 
 ## Instructions
 
+
+```
+1. Create a new Github repo
+2. Create a local repo using the command `git init`
+3. Push to the new repo
+
+git remote add origin https://github.com/YourUsername/repoName.git
+git branch -M main
+git push -u origin main
+```
+
 1. Create you flutter app.
 2. Clean your `main.dart` file to look like this:
 
