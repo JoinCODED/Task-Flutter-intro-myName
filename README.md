@@ -12,18 +12,25 @@ fontWeight: bold
 color: Red
 ```
 
-## Instructions
+## Setup
 
-
-```
 1. Create a new Github repo
 2. Create a local repo using the command `git init`
 3. Push to the new repo
 
+```shell
 git remote add origin https://github.com/YourUsername/repoName.git
+```
+
+```shell
 git branch -M main
+```
+
+```shell
 git push -u origin main
 ```
+
+## Instructions
 
 1. Create you flutter app.
 2. Clean your `main.dart` file to look like this:
@@ -42,11 +49,29 @@ class MyApp extends StatelessWidget {
   }
 }
 ```
-3. Return a `Scaffold` widget in your `MaterialAp` widget.
-5. In your `Scaffold` widget, add a `body` named argument and pass it a `Text` widget.
-6. Wrap your `Text` widget in a `Center` widget.
-7. In your `Text` widget, add a second argument `textStyle` and style your text.
 
-Result: 
+Here is the widgets you will need:
+
+- Scaffold [documentation](https://api.flutter.dev/flutter/material/Scaffold-class.html)
+- Center [documentation](https://api.flutter.dev/flutter/widgets/Center-class.html)
+- Text [documentation](https://api.flutter.dev/flutter/material/Text-class.html)
+
+Don't forget to style your text!
+
+Result:
 
 ![result](https://user-images.githubusercontent.com/84308096/154476341-9b56163a-c22a-4a11-af3c-a18bb77eb70e.png)
+
+## Push to Github
+
+```shell
+git add .
+```
+
+```shell
+git commit -m "your message"
+```
+
+```shell
+git push
+```
